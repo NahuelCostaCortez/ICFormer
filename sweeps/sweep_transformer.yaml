@@ -1,0 +1,26 @@
+entity: nahuelcosta
+project: ICFormer
+program: train_transformer.py
+method: random
+metric:
+  goal: minimize
+  name: loss
+parameters:
+  batch_size:
+    values: [28, 32, 64, 128, 256]
+  learning_rate:
+    values: [0.001, 0.0001]
+  num_transformer_blocks:
+    values: [2,4]
+  num_heads:
+    values: [2,4]
+  head_size:
+    values: [28,32]
+  ff_dim:
+    values: [28, 32, 64]
+  mlp_units:
+    values: [64,128]
+  mlp_dropout:
+    values: [0.1, 0.2]
+  dropout:
+    values: [0.1, 0.2]
