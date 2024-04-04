@@ -27,7 +27,7 @@ Once you download the files:
 - Open Matlab
 - Execute the Read_me_VvsQmatrix.m. This will get the variables needed for the **diagnosis** dataset.
 - Execute the Read_me_Dutymatrix.m. This will get the variables needed for the **prognosis** dataset. This is because the duty cycles are built over the paths generated for the diagnosis dataset.
-- From these variables, you will need to save *Vi.mat*, *volt.mat*, *Q.mat* and *path_prognosis.mat*
+- From these variables, you will need to save *Vi.mat*, *volt.mat*, *Q.mat* and *path_prognosis.mat*.
 - To get *path_prognosis.mat*, you can execute the following snippet:
 ```
 cycles = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000];
