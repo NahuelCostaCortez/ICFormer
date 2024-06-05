@@ -5,7 +5,7 @@ ICFormer is a novel Deep Learning model based on a Transformer encoder that leve
 You can check our paper [here](https://www.sciencedirect.com/science/article/pii/S0378775323012867).
 
 >[!WARNING]
->The code of this repository will no longer be mantained here but in the [rapidae](https://github.com/NahuelCostaCortez/rapidae) library.
+>The code related to the model will no longer be mantained here but in the [rapidae](https://github.com/NahuelCostaCortez/rapidae) library.
 
 # Files in this Repository
 - \data: contains the synthetic test data and the real data corresponding to two commercial high-power graphite/LFP cells manufactured by A123 Systems: CReal#1 (ANR26650M1a, 2.3 Ah) and CReal#2 (ANR26650M1b, 2.5 Ah).
